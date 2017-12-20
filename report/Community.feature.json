@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4784341744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Perform community search",
+        "description": "",
+        "id": "community;perform-community-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1034670359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5377168410,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the OutSystems website",
+            "match": {
+              "location": "StepWebsite.i_open_the_OutSystems_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854107077,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to \"Community\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Community",
+                  "offset": 15
+                }
+              ],
+              "location": "StepWebsite.i_navigate_to_section(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3092246154,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for \"Silk\" in community",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silk",
+                  "offset": 14
+                }
+              ],
+              "location": "StepCommunity.i_search_for_in_community(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28404811487,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see community search results are displayed",
+            "match": {
+              "location": "StepCommunity.i_see_community_search_results_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Community",
+    "description": "",
+    "id": "community",
+    "keyword": "Feature",
+    "uri": "../feature/Community.feature"
+  }
+]

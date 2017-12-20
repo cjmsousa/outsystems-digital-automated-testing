@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4478524308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Download Report from IT Resources",
+        "description": "",
+        "id": "it-resources;download-report-from-it-resources",
+        "after": [
+          {
+            "result": {
+              "duration": 852420923,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4880382360,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the OutSystems website",
+            "match": {
+              "location": "StepWebsite.i_open_the_OutSystems_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4418668718,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to \"IT Resources\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Resources",
+                  "offset": 15
+                }
+              ],
+              "location": "StepWebsite.i_navigate_to_section(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5706571487,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I download \"Gartner Names OutSystems a Leader in High-Productivity aPaaS\" report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gartner Names OutSystems a Leader in High-Productivity aPaaS",
+                  "offset": 12
+                }
+              ],
+              "location": "StepItResources.i_download_report(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4787366564,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see the Thank You page",
+            "match": {
+              "location": "StepItResources.i_see_the_Thank_You_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "IT Resources",
+    "description": "",
+    "id": "it-resources",
+    "keyword": "Feature",
+    "uri": "../feature/ItResources.feature"
+  }
+]
