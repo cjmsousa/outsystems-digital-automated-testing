@@ -1,4 +1,4 @@
-# OutSystemsDigitalAutomatedTesting
+# OutSystems Digital Automated Testing
 
 Prrof of concept for a suite of automated tests for the Digital team, using Behavioral Driven Tests.
 
