@@ -14,10 +14,19 @@ Here's an example of a BDT test:
 
 Technlogies and Tools:
 
-      Development Environment: JetBrains IntelliJ IDEA
-      Test Framework: Cucumber and Gherkin
-      Execution Orchestration: Batch Scripting
-      Report Generation: Python Scripting
+ - Development Environment: JetBrains IntelliJ IDEA
+ - Test Framework: Cucumber and Gherkin
+ - Execution Orchestration: Batch Scripting
+ - Report Generation: Python Scripting
+
+
+How to execute the tests:
+
+ 1. Open the project with JetBrains IntelliJ IDEA
+ 2. Compile full Java project
+ 3. Exeucte batch file runner\run.bat
+
+
 
 
 
